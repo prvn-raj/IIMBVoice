@@ -1,0 +1,57 @@
+name: onlybelievetamilradio2
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.20.1
+  http: ^0.13.3
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.0
+flutter_launcher_icons:
+      android: "launcher_icon"
+      ios: true
+      image_path: "assets/icon/WMBy.png"
+
+    # Check for the latest version on pub.dev
+
+
+
+
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/wheat.jpg
+    - assets/images/WMB2.jpg
+  fonts:
+    - family: OneDay
+      fonts:
+        - asset: assets/fonts/ONEDAY.ttf
+    - family: BebasNeue
+      fonts:
+        - asset: assets/fonts/bebasNeue-regular.ttf
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/nunito-regular.ttf
+    - family: RockSalt
+      fonts:
+        - asset: assets/fonts/rocksalt-regular.ttf
+    - family: Teko
+      fonts:
+        - asset: assets/fonts/teko-regular.ttf
