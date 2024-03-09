@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class AzuraService {
-  final String _baseUrl = 'https://a2.asurahosting.com/api';
-  final String _apiKey = '49d6ed5c1f169d1f:2aa595bbb7b090b39f2878930f0a88c5';
+  final String _baseUrl = 'https://a4.asurahosting.com/api';
+  final String _apiKey = '0a9f605fbc1c73d8:0cc302f454626d3a6f1a52e93e2f9646';
 
   Future<Map<String, dynamic>> fetchNowPlaying() async {
     final response = await http.get(

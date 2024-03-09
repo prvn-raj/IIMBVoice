@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Online Radio',
+      title: 'IIMB Voice',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

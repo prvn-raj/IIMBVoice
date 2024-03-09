@@ -39,6 +39,8 @@ flutter:
   assets:
     - assets/images/wheat.jpg
     - assets/images/WMB2.jpg
+    - assets/images/IIMB.png
+    - assets/images/IIMB3.png
   fonts:
     - family: OneDay
       fonts:

@@ -51,7 +51,7 @@ class _RadioPageState extends State<RadioPage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text("Only Believe-Live Radio(தமிழ்) v1.0",
+          title: Text("IIM Bangalore-Live Radio(தமிழ்) v1.0",
             style: TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.bold,
@@ -65,7 +65,7 @@ class _RadioPageState extends State<RadioPage> {
                 style: TextStyle(
           fontSize: 15,
           fontWeight: FontWeight.bold,
-          color: Colors.lightBlue[300],
+          color: Colors.red,
           fontFamily: 'Nunito',
         ),),
               onPressed: () {
@@ -90,11 +90,11 @@ class _RadioPageState extends State<RadioPage> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                IconButton(
+               /* IconButton(
                   icon: Icon(Icons.info_rounded),
                   color: _isDarkTheme ? Colors.white : Colors.grey[800],
                   onPressed: _showInfoDialog,
-                ),
+                ),*/
                 IconButton(
                   icon: Icon(_isDarkTheme ? Icons.brightness_7 : Icons.brightness_4),
                   color: _isDarkTheme ? Colors.white : Colors.grey[800],
@@ -127,13 +127,13 @@ class _RadioPageState extends State<RadioPage> {
                       ],
                     ),
                     child: CircleAvatar(
-                        radius: 100,
-                        backgroundImage: AssetImage('assets/images/WMB2.jpg')
+                        radius: 150,
+                        backgroundImage: AssetImage('assets/images/IIMB3.png')
                     ),
                   ),
                   SizedBox(height: 20),
                   Text(
-                    "Only Believe - Live Radio\n""                 தமிழ்",
+                    "Live Radio",
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
@@ -159,7 +159,7 @@ class _RadioPageState extends State<RadioPage> {
                       backgroundColor: Colors.grey[300],
                       valueColor: AlwaysStoppedAnimation<Color>(
                         LinearGradient(
-                          colors: [Colors.blue, Colors.lightBlue.shade300],
+                          colors: [Colors.red, Colors.redAccent],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
                         ).colors.last,
@@ -200,7 +200,7 @@ class _RadioPageState extends State<RadioPage> {
   Widget _convexButton({required VoidCallback onPressed, required IconData icon}) {
     Color backgroundColor = _isDarkTheme ? (Colors.grey[800] ?? Colors.grey) : (Colors.grey[300] ?? Colors.grey);
     Color boxShadowColor = _isDarkTheme ? (Colors.grey[600] ?? Colors.grey) : (Colors.grey[400] ?? Colors.grey);
-    Color iconColor = _isDarkTheme ? Colors.white : (Colors.lightBlue[300] ?? Colors.lightBlue);
+    Color iconColor = _isDarkTheme ? Colors.white : (Colors.red.shade800 ?? Colors.lightBlue);
 
 
 
